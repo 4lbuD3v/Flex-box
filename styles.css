@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(188, 168, 245);
+}
+
+header, footer {
+    height: 15vh;
+    background-color: rgb(154, 140, 231);
+    color: white;
+    display: flex;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+li {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
